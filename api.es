@@ -27,7 +27,7 @@ GET /kibana_sample_data_flights/_search
 GET /kibana_sample_data_flights/_search
 {
     "from": 0,
-    "size": 10000,
+    "size": 100,
     "query": {
         "match": {
             "Carrier": "JetBeats"
